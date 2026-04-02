@@ -37,3 +37,5 @@ router.get(
   authController.restrictTo("admin", "analyst", "viewer"),
   recordController.dashboardView,
 );
+
+module.exports = router;

@@ -77,7 +77,8 @@ Viewer| View dashboard summary
 
 🔑 Auth Routes
 
-Method| Endpoint| Description
+Method| Endpoint| Description |
+|--------|----------|--------|
 POST| /api/v1/users/register| Register user
 POST| /api/v1/users/login| Login user
 
@@ -85,7 +86,8 @@ POST| /api/v1/users/login| Login user
 
 💰 Record Routes
 
-Method| Endpoint| Access
+Method| Endpoint| Access|
+|--------|----------|--------|
 POST| /api/v1/records| Admin
 GET| /api/v1/records| Admin, Analyst
 PATCH| /api/v1/records/:id| Admin
@@ -94,7 +96,8 @@ PATCH| /api/v1/records/:id| Admin
 
 📊 Analytics Routes
 
-Method| Endpoint| Access
+Method| Endpoint| Access|
+|--------|----------|--------|
 GET| /api/v1/records/analyze| Admin, Analyst
 GET| /api/v1/records/dashboard| All roles
 

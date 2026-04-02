@@ -41,7 +41,8 @@ It demonstrates:
 
 2. User Roles
 
-Role| Permissions
+Role| Permissions|
+|--------|----------|
 Admin| Create, update, manage records and users
 Analyst| View records and analyze data
 Viewer| View dashboard summary
